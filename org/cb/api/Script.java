@@ -31,7 +31,7 @@ public abstract class Script extends ColourMethods{
 	 * @return long
 	 * @throws InterruptedException
 	 */
-	public abstract long loop() throws InterruptedException;
+	public abstract int loop() throws InterruptedException;
 	
 	/**
 	 * Optional on end method.
