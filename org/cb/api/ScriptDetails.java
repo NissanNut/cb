@@ -11,7 +11,7 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ScriptDetails {
 	double version() default 0.01;
-	String name() default "Unknown";
+	String name();
 	String description() default "Unknown";
-	String author() default "Unknown"; 
+	String author(); 
 }
