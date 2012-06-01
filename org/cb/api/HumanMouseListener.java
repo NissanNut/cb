@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
  * @author Troy
  *
  */
-public interface HumanMouseListener {
+public interface MouseListener {
 	public void mouseClicked(MouseEvent e);
 	public void mouseMoved(MouseEvent e);
 	public void mousePressed(MouseEvent e);
